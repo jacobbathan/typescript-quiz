@@ -5,6 +5,7 @@ import { Difficulty } from './API';
 
 const TOTAL_QUESTIONS = 10;
 
+
 const App = () => {
   const [loading, setLoading] = useState(false);
   const [questions, setQuestions] = useState([]);
